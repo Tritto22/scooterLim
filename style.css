@@ -1,0 +1,86 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container{
+  background: url(background.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  padding: 100px;
+}
+
+.content{
+  width: 70%;
+  margin:auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+  width: 20%;
+  margin: auto;
+}
+
+.logo>img{
+  width: 120px;
+}
+
+h1{
+  text-align: center;
+  color: lime;
+  font-size: 20px;
+  padding: 5px 0px;
+}
+
+.menu{
+  background-color: lime;
+  text-align: center;
+  line-height: 15px;
+  padding: 3px;
+  height: 25px;
+}
+
+button{
+  font-size: 8px;
+}
+
+.mezzi{
+  color: white;
+  font-size: 10px;
+  padding: 15px 0px;
+}
+
+input[type='checkbox'], .nome{
+  display: inline-block;
+}
+
+input[type='checkbox'] {
+    accent-color: white;
+    height: 8px;
+}
+
+.barra1{
+  background-color: orange;
+  width: 250px;
+  height: 18px;
+}
+
+.barra2{
+  background-color: lime;
+  width: 400px;
+  height: 18px;
+}
+
+.barra3{
+  background-color: crimson;
+  width: 80px;
+  height: 18px;
+}
+
+.barra1,.barra2,.barra3{
+  border-radius: 4px;
+}
